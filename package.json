@@ -1,0 +1,23 @@
+{
+  "name": "tree-assign",
+  "version": "0.0.2",
+  "main": "dist/tree-assign.js",
+  "author": "heineiuo <heineiuo@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "tree",
+    "assign",
+    "merge"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "prepublish": "babel src -d dist"
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ]
+}
